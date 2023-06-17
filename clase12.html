@@ -96,6 +96,24 @@
             justify-content: center;
         }
 
+        .dots {
+        text-align: center;
+        }
+
+        .dot {
+            cursor: pointer;
+            height: 8px;
+            width: 8px;
+            margin: 0 2px;
+            background-color: var(--very-light-pink);
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .dots span:nth-child(1) {
+            background-color: var(--hospital-green);
+        }
+
         @media (max-width: 640px){
             .product-detail{
                 width: 100%;
@@ -110,6 +128,12 @@
         </div>
         
         <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="bike">
+
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
 
         <div class="product-info">
             <p>$3,500.00</p>
